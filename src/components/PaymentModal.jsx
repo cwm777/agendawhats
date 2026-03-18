@@ -201,7 +201,7 @@ function CardView({ card, setCard, formatCard, formatExpiry, loading, onPay }) {
       {/* Card preview */}
       <div className="bg-gradient-to-br from-wa-teal to-wa-green-dark rounded-2xl p-4 text-white shadow-md">
         <div className="flex justify-between items-start mb-6">
-          <span className="text-xs opacity-70">AgendaWhats Pay</span>
+          <span className="text-xs opacity-70">SecretarIA Pay</span>
           <div className="flex gap-1">
             <div className="w-6 h-6 rounded-full bg-red-400 opacity-80" />
             <div className="w-6 h-6 rounded-full bg-yellow-300 opacity-80 -ml-2" />

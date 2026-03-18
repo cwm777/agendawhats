@@ -45,7 +45,7 @@ export default function FlowSelector({ onSelect }) {
         <div className="w-20 h-20 bg-white rounded-3xl flex items-center justify-center shadow-xl mx-auto mb-4">
           <span className="text-4xl">📅</span>
         </div>
-        <h1 className="text-3xl font-bold text-white">AgendaWhats</h1>
+        <h1 className="text-3xl font-bold text-white">SecretarIA</h1>
         <p className="text-green-200 mt-1 text-sm">Gestão de agenda para profissionais de saúde</p>
       </motion.div>
 

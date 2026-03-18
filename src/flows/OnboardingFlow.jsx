@@ -51,7 +51,7 @@ export default function OnboardingFlow({ onBack }) {
 
   useEffect(() => {
     const run = async () => {
-      await addBot('Olá! 👋 Bem-vindo ao *AgendaWhats*! 🗓️\n\nVou ajudar você a configurar sua agenda inteligente em poucos passos.\n\nQual é o seu nome completo?', 900)
+      await addBot('Olá! 👋 Bem-vindo ao *SecretarIA*! 🗓️\n\nVou ajudar você a configurar sua agenda inteligente em poucos passos.\n\nQual é o seu nome completo?', 900)
       setShowInput(true)
       setStep(STEP.NAME)
     }
@@ -164,7 +164,7 @@ export default function OnboardingFlow({ onBack }) {
 
   return (
     <WhatsAppShell
-      title="AgendaWhats"
+      title="SecretarIA"
       subtitle="Configuração da agenda"
       avatar="AW"
       onBack={onBack}
